@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #0c0c0c;
   color: #333;
   margin: 33px; }
 
@@ -7,6 +7,13 @@ body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px; }
+
+  .main__container {
+    background-image: url("<%= asset_path('adam.jpg') %>");
+    height: max-content;
+    width: max-content;
+    background-size: cover;
+  }
 
 pre {
   background-color: #eee;
