@@ -1,11 +1,16 @@
 class PictureUploader < CarrierWave::Uploader::Base
   # Include RMagick or MiniMagick support:
+<<<<<<< Updated upstream
    #include CarrierWave::RMagick
 
    #include CarrierWave::MiniMagick
 
   #include CarrierWave::Video
   
+=======
+  # include CarrierWave::RMagick
+  # include CarrierWave::MiniMagick
+>>>>>>> Stashed changes
 
   # Choose what kind of storage to use for this uploader:
   storage :file
@@ -39,9 +44,15 @@ class PictureUploader < CarrierWave::Uploader::Base
 
   # Add an allowlist of extensions which are allowed to be uploaded.
   # For images you might use something like this:
+<<<<<<< Updated upstream
   def extension_allowlist
      %w(jpg jpeg gif png MOV wmv mp4)
   end
+=======
+   def extension_allowlist
+    %w(jpg jpeg gif png MOV wmv mp4)
+   end
+>>>>>>> Stashed changes
 
   # Override the filename of the uploaded files:
   # Avoid using model.id or version_name here, see uploader/store.rb for details.
