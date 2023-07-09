@@ -8,10 +8,23 @@ body, p, ol, ul, td {
   font-size: 13px;
   line-height: 18px; }
 
+.kv{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video{
+  text-align: center;
+}
+
+
+
   .main__container {
-    background-image: url("<%= asset_path('adam.jpg') %>");
-    height: max-content;
-    width: max-content;
+    background-image: url("<%= 'jd99.mp4' %>");
+    height: 900px;
+    width: 1200px;
     background-size: cover;
   }
 
